@@ -5,8 +5,8 @@
         <Authors>Simon Findling</Authors>
         <Description>Tooling for reusing persistent connections with Dataverse ServiceClient</Description>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/3mpowered/dataverse-connection</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/3mpowered/dataverse-connection</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/3mpowered/Dataverse.Connection.Client</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/3mpowered/Dataverse.Connection.Client</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
