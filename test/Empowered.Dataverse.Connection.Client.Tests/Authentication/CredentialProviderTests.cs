@@ -69,6 +69,6 @@ public class CredentialProviderTests
 
         var action = () => credentialProvider.GetCredential();
 
-        action.Should().ThrowExactly<CryptographicException>();
+        action.Should().Throw<CryptographicException>();
     }
 }
