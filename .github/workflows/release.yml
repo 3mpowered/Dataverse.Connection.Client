@@ -1,7 +1,10 @@
 name: release
 on:
-  push:
+  workflow_run:
+    workflows: [test, build]
     branches: [main, beta, alpha]
+    types:
+      - completed
 jobs:
   release:
     name: release
