@@ -1,10 +1,7 @@
 name: release
 on:
-  workflow_run:
-    workflows: [test, build]
+  push:
     branches: [main, beta, alpha]
-    types:
-      - completed
 jobs:
   release:
     name: release
@@ -34,6 +31,6 @@ jobs:
         run: npm ci --no-fund
       - name: semantic release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
           NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
         run: npx semantic-release
