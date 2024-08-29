@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection.Client", "src\Empowered.Dataverse.Connection.Client\Empowered.Dataverse.Connection.Client.csproj", "{A6BC8EFD-498D-4084-9892-5B1D1F7A0018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection.Client.Tests", "test\Empowered.Dataverse.Connection.Client.Tests\Empowered.Dataverse.Connection.Client.Tests.csproj", "{58099A6F-0831-4B8A-B7B1-F1C4CA14AE8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BC8EFD-498D-4084-9892-5B1D1F7A0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BC8EFD-498D-4084-9892-5B1D1F7A0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BC8EFD-498D-4084-9892-5B1D1F7A0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BC8EFD-498D-4084-9892-5B1D1F7A0018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58099A6F-0831-4B8A-B7B1-F1C4CA14AE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58099A6F-0831-4B8A-B7B1-F1C4CA14AE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58099A6F-0831-4B8A-B7B1-F1C4CA14AE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58099A6F-0831-4B8A-B7B1-F1C4CA14AE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
