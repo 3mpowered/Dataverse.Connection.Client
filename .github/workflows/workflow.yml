@@ -16,6 +16,7 @@ jobs:
   release:
     needs: test
     permissions:
+      pull-requests: write
       contents: write
     uses: 3mpowered/Github.Action.Workflows/.github/workflows/release.yml@main
     secrets: inherit
