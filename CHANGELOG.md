@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/3mpowered/Dataverse.Connection.Client/compare/v1.0.0...v1.0.1) (2024-09-01)
+
+
+### Bug Fixes
+
+* update release workflow ([8008366](https://github.com/3mpowered/Dataverse.Connection.Client/commit/80083669ae0e6d989e84651bd3a90aff4de8d7cd))
+
 ## [1.0.1-alpha.1](https://github.com/3mpowered/Dataverse.Connection.Client/compare/v1.0.0...v1.0.1-alpha.1) (2024-08-31)
 
 
